@@ -17,3 +17,7 @@
               1px -1px 0px #FFF,                  
               1px 0px 0px #FFF;
 }
+
+.ponto li{
+    list-style: none
+};
