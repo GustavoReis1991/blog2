@@ -30,9 +30,11 @@ export class LoginComponent implements OnInit {
       environment.id = this.userlogin.id
       environment.nome = this.userlogin.nome
 
+      console.log(environment)
+
       this.router.navigate(["/inicio"])
     }, erro=>{
-      if (erro.status == 500){
+      if (erro.status == 401){
         alert("Usuário ou senha incorretos")
       }
     })
