@@ -4,10 +4,10 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto d-flex align-items-center">
       <li>
-        <img src="https://avatars.githubusercontent.com/u/93771448?v=4" alt="foto perfil" class="img-fluid rounded-circle" width="50">
+        <img src="{{foto}}" alt="foto perfil" class="img-fluid rounded-circle" width="50">
       </li>
       <li>
-        <h4 class="text-white ml-3">Bem Vindo Gustavo Reis</h4>
+        <h4 class="text-white ml-3">Bem Vindo, {{nome}}</h4>
       </li>
       <li>
         <a href="">
@@ -18,7 +18,7 @@
     </ul>
     <ul class="navbar-nav ml-auto d-flex align-items-center">
       <li class="nav-item pl-3">
-        <a class="m-0 font-weight-bold text-light fs-16">Sair<i class="fa fa-sign-out ml-2" aria-hidden="true"></i></a></li>
+        <a (click)="sair()" class="m-0 font-weight-bold text-light fs-16">Sair<i class="fa fa-sign-out ml-2" aria-hidden="true"></i></a></li>
     </ul>
     
     
