@@ -12,10 +12,10 @@ export class TemaComponent implements OnInit {
   constructor(private router:Router) { }
 
   ngOnInit(){
-    if(environment.token == ""){
-      this.router.navigate(['/login'])
+   // if(environment.token == ""){
+     // this.router.navigate(['/login'])
 
-    }
+   // }
     
   }
 
