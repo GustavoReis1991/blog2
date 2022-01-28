@@ -30,7 +30,7 @@ export class LoginComponent implements OnInit {
       environment.id = this.userlogin.id
       environment.nome = this.userlogin.nome
 
-      console.log(environment)
+      
 
       this.router.navigate(["/inicio"])
     }, erro=>{

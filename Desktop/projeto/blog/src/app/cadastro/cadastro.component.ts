@@ -27,7 +27,7 @@ export class CadastroComponent implements OnInit {
 
   confirmSenha(event: any){
     this.confirmarSenha = event.target.value
-    console.log(this.confirmSenha)
+    
   }
 
   tipoUser(event: any){
@@ -35,7 +35,7 @@ export class CadastroComponent implements OnInit {
   }
 
   cadastrar(){
-    console.log(this.usuario)
+    
     this.usuario.tipo=this.tipoUsuario
     if(this.usuario.senha != this.confirmarSenha){
       alert("Senhas não coincidem")
